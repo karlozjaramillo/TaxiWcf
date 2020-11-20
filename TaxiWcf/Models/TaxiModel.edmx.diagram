@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e939c374fefc46c8b629eee049fafb30" Name="Diagram1">
+        <EntityTypeShape EntityType="TaxiWebModel.Afiliacion" Width="1.5" PointX="6.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaxiWebModel.Clase" Width="1.5" PointX="0.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaxiWebModel.Conductor" Width="1.5" PointX="2.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaxiWebModel.Usuarios" Width="1.5" PointX="0.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaxiWebModel.Vehiculo" Width="1.5" PointX="4.625" PointY="0.625" IsExpanded="true" />
+        <AssociationConnector Association="TaxiWebModel.FK_Clase_Conductor" ManuallyRouted="false" />
+        <AssociationConnector Association="TaxiWebModel.FK_Vehiculo_Conductor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,12 @@
+
+/TaxiWcf/bin/TaxiWcf.dll.config
+/.vs/TaxiWcf/v16/.suo
+/TaxiWcf/obj/Debug/TaxiWcf.csprojAssemblyReference.cache
+*.suo
+*.pdb
+*.user
+*.orig
+*.zip
+*.dll
+**/bin/*
+**/obj/*
